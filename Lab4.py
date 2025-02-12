@@ -18,4 +18,4 @@ def fibonacci(n):
                 b = c
             return b
 
-print(fibonacci(6))
+#print(fibonacci(6))
