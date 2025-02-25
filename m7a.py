@@ -5,13 +5,13 @@
 
 def bin(n):
     if n==0:
-        return ''
+        return '0'
     elif n==1:
         return '1'
     else:
         return bin(n//2) + str(n%2)
 
-print(bin(0))
+#print(bin(0))
 
 #Capitalize Characters
 #Write a function capitalize that takes in a string as input and returns a new string where every character is lowercase
